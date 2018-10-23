@@ -6,6 +6,7 @@ html {
 	position: relative;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif
 }
+ul{list-style: none;}
 .center-block{display: block;width: 100%;}
 /*.main-header{background-image: url(../images/banner.jpg);}*/
 .main-header{backgroung-repeat:no-repeat;background-size: cover;
@@ -26,7 +27,34 @@ background-position:center 0;padding-top: 160px;padding-bottom:160px;text-align:
 @media (min-width:768px)and (max-width:991px){
 	.main-header em{font-size: 2em;}
 }
+
 /*@media (max-width: @screen-xs-max) { ... }
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
 @media (min-width: @screen-lg-min) { ... }*/
+
+.navbar-header{text-align: center;}
+.navbar-header i {
+    height: 56px;
+    line-height: 56px;
+    font-size: 2em;
+    cursor: pointer;
+}
+.main-navigation{text-align: left;}
+.main-navigation .menu{margin: 0;padding: 0;}
+.main-navigation{background: #fff;}
+.main-navigation .menu li{list-style: none;color: #333;}
+.main-navigation .menu li a{line-height: 4em;padding: 0 21px;color: #505050;text-decoration: none;}
+.main-navigation .menu li a:hover{color: #2196f3;}
+@media (min-width: 768px){/*大于768px*/
+.nav-toggle-button {display: none;}
+}
+
+@media (min-width: 768px){
+.main-navigation{text-align: center;} 
+
+}
+@media (min-width: 768px){
+.main-navigation .menu li{display: inline-block;}
+
+}
