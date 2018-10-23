@@ -11,7 +11,7 @@ html {
 background-position:center 0;padding-top: 160px;padding-bottom:160px;text-align: center;}
 .main-header em{font-size: 3em;color: #fff;display: block;}
 .main-header em:first-child{margin-bottom: 1em;}
-.main-header em:nth-of-type(2){text-indent: .9em;}
+/*.main-header em:nth-of-type(2){text-indent: .9em;}*/
 /*.author{color: #fff;}
 .author em{font-size: 1.4em;display: inline-block;}*/
 .web-content{margin-top: 35px;}
@@ -19,3 +19,9 @@ background-position:center 0;padding-top: 160px;padding-bottom:160px;text-align:
 .right{padding: 0 15px;}
 .left-con{background: #fff;padding: 35px;height: 800px;}
 .right-side{background: #fff;padding: 35px;height: 500px;}
+@media (max-width:767px){
+	.main-header em{font-size: 2em;}
+}
+@media (min-width:768px)and (max-width:991px){
+	.main-header em{font-size: 2em;}
+}
