@@ -6,6 +6,7 @@ html {
 	position: relative;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif
 }
+.center-block{display: block;width: 100%;}
 /*.main-header{background-image: url(../images/banner.jpg);}*/
 .main-header{backgroung-repeat:no-repeat;background-size: cover;
 background-position:center 0;padding-top: 160px;padding-bottom:160px;text-align: center;}
@@ -15,13 +16,17 @@ background-position:center 0;padding-top: 160px;padding-bottom:160px;text-align:
 /*.author{color: #fff;}
 .author em{font-size: 1.4em;display: inline-block;}*/
 .web-content{margin-top: 35px;}
-.left{padding: 0 15px;}
-.right{padding: 0 15px;}
-.left-con{background: #fff;padding: 35px;height: 800px;}
-.right-side{background: #fff;padding: 35px;height: 500px;}
+.left-con{}
+.list{background: #fff;padding: 35px;margin-bottom: 35px;}
+.list img{display: block;width: 100%;}
+.right-side{background: #fff;padding: 35px;text-align: center;}
 @media (max-width:767px){
 	.main-header em{font-size: 2em;}
 }
 @media (min-width:768px)and (max-width:991px){
 	.main-header em{font-size: 2em;}
 }
+/*@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }*/
