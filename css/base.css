@@ -1,0 +1,21 @@
+body,
+html {
+	color: #505050;
+	line-height: 1.75em;
+	background: #ebebeb;
+	position: relative;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif
+}
+/*.main-header{background-image: url(../images/banner.jpg);}*/
+.main-header{backgroung-repeat:no-repeat;background-size: cover;
+background-position:center 0;padding-top: 160px;padding-bottom:160px;text-align: center;}
+.main-header em{font-size: 3em;color: #fff;display: block;}
+.main-header em:first-child{margin-bottom: 1em;}
+.main-header em:nth-of-type(2){text-indent: .9em;}
+/*.author{color: #fff;}
+.author em{font-size: 1.4em;display: inline-block;}*/
+.web-content{margin-top: 35px;}
+.left{padding: 0 15px;}
+.right{padding: 0 15px;}
+.left-con{background: #fff;padding: 35px;height: 800px;}
+.right-side{background: #fff;padding: 35px;height: 500px;}
