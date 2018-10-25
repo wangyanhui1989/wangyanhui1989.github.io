@@ -17,43 +17,6 @@
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
-    <style>
-    *{margin: 0;padding: 0;}
-.box{width: 640px;height: 310px;margin:auto;position: relative;margin-top: 5%;}
-.a1{position: relative;}
-.b1{position: relative;}
-.a{width: 310px;height: 310px;background: red;opacity: .5;
-border-radius: 50%;position: absolute;left: 0;animation:mymove 2s infinite linear alternate;cursor: pointer;}
-.b{width: 310px;height: 310px;background: blue;opacity: .5;
-border-radius: 50%;position: absolute;right: 0;animation:mymove1 2s infinite linear alternate;cursor: pointer;}
-.a:hover{opacity: 1;}
-.b:hover{opacity: 1;}
-.left{float: left;}			
-.right{float: right;}
-	@keyframes mymove
-	{
-	from {left:0px;}
-	to {left:50px;}
-	}
-			
-	@-webkit-keyframes mymove 
-	{
-	from {left:0px;}
-	to {left:50px;}
-	}
-			
-	@keyframes mymove1
-	{
-	from {right:0px;}
-	to {right:50px;}
-	}
-			
-	@-webkit-keyframes mymove1 /*Safari and Chrome*/
-	{
-	from {right:0px;}
-	to {right:50px;}
-	}	
-    </style>
 	</head>
 
 	<body>
@@ -129,16 +92,6 @@ border-radius: 50%;position: absolute;right: 0;animation:mymove1 2s infinite lin
 				</aside>
 			</div>
 		</div>
-		
-		<div class="box">
-			<div class="left a1">
-				<div class="a"></div>
-			</div>
-			<div class="right b1">
-				<div class="b"></div>
-			</div>
-			<div class="clear"></div>
-		</div>	
 		<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
 		<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
